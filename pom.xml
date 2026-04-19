@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.speedhome.poc</groupId>
-    <artifactId>speedhome-poc</artifactId>
+    <groupId>com.property.poc</groupId>
+    <artifactId>property-poc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-	<name>speedhome</name>
+	<name>property</name>
     <packaging>pom</packaging>
 
     <properties>
@@ -12,8 +12,8 @@
     </properties>
 
     <modules>
-        <module>speedhome-api</module>
-        <module>speedhome-service</module>
-        <module>speedhome-client</module>
+        <module>property-api</module>
+        <module>property-service</module>
+        <module>property-client</module>
     </modules>
 </project>

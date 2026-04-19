@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
-  description: The document of SpeedHome REST APIs
+  description: The document of property REST APIs
   version: 1.0.0
-  title: SpeedHome REST APIs
+  title: property REST APIs
   contact:
     name: Khoa VU
     url: 'http://www.khoavu.net'
@@ -11,7 +11,7 @@ info:
     name: Apache 2.0
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 host: 'localhost:8080'
-basePath: /speedhome/backend/v1
+basePath: /property/backend/v1
 
 paths:
   /property:

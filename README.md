@@ -50,7 +50,7 @@ property-management/
 
 ## API Endpoints
 
-Base URL: `/speedhome/backend/v1`
+Base URL: `/property/backend/v1`
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|

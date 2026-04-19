@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.speedhome.poc</groupId>
-    <artifactId>speedhome-client</artifactId>
+    <groupId>com.property.poc</groupId>
+    <artifactId>property-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-	<name>speedhome-client</name>
+	<name>property-client</name>
     <packaging>jar</packaging>
 
     <parent>
@@ -145,9 +145,9 @@
                             <inputSpec>${basedir}/../yaml/speedtest-apis.yaml</inputSpec>
                             <language>java</language>
                             <library>resttemplate</library>
-                            <apiPackage>com.speedhome.poc.client.api</apiPackage>
-                            <modelPackage>com.speedhome.poc.client.model</modelPackage>
-                            <invokerPackage>com.speedhome.poc.client.handler</invokerPackage>
+                            <apiPackage>com.property.poc.client.api</apiPackage>
+                            <modelPackage>com.property.poc.client.model</modelPackage>
+                            <invokerPackage>com.property.poc.client.handler</invokerPackage>
                             <generateApiTests>false</generateApiTests>
                             <configOptions>
                                 <useBeanValidation>true</useBeanValidation>
