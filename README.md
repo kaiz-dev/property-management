@@ -12,14 +12,16 @@ This service provides CRUD operations for property listings with an approval wor
 - API Key authentication
 - Swagger/OpenAPI documentation
 
-## Architecture
+## Project Structure
 
 ```
 property-management/
-├── property-api/          # Generated API interfaces from OpenAPI spec
-├── property-service/      # Core service implementation
-├── property-client/       # Client library for consumers
-└── yaml/                  # OpenAPI specification
+├── pom.xml                 # Parent POM (multi-module)
+├── property-api.yaml       # OpenAPI specification
+├── property-api/           # Generated API interfaces from OpenAPI spec
+├── property-service/       # Core service implementation
+├── property-client/        # Client library for consumers
+└── Dockerfile              # Docker build configuration
 ```
 
 ## Tech Stack
@@ -92,6 +94,7 @@ docker run -p 8080:8080 property-management
 ### API Documentation
 
 Once running, access Swagger UI at:
+
 ```
 http://localhost:8080/swagger-ui.html
 ```
@@ -107,18 +110,20 @@ mvn test
 ### BDD Tests (Cucumber)
 
 ```bash
-mvn test -Dtest=*CucumberTest
+mvn test -Dtest=IntegrationFunctionalTest
 ```
 
 ### Load Tests (Gatling)
 
 ```bash
+cd property-service
 mvn gatling:test -Dsimulation=CreateDomainSimulation
 ```
 
 ## Configuration
 
 Application properties can be configured in:
+
 ```
 property-service/src/main/resources/application.properties
 ```
