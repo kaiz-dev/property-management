@@ -1,5 +1,5 @@
 FROM maven:3.5-jdk-8-alpine AS BUILD
-LABEL Khoa Vu
+LABEL maintainer="Kaiz Dev"
 WORKDIR /home/app
 COPY property-api /home/app/property-api
 COPY property-client /home/app/property-client

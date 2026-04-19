@@ -15,7 +15,7 @@ public class PropertyData {
     public static final String DESC = "This is a beautiful property";
     public static final double PRICE = 1500.0;
     public static final String STATUS_COMMENT = "Just created";
-    public static final String UPDATE_USER_ID = "khoavu";
+    public static final String UPDATE_USER_ID = "kaiz";
 
     public static Property mockProperty() {
         Property property = new Property();
