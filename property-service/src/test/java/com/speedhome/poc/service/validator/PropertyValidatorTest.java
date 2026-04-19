@@ -5,6 +5,8 @@ import com.property.poc.service.exception.BadRequestException;
 import com.property.poc.service.exception.EntityNotFoundException;
 import com.property.poc.service.mock.PropertyData;
 import com.property.poc.service.repository.PropertyRepository;
+import com.property.poc.service.validator.PropertyValidator;
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;

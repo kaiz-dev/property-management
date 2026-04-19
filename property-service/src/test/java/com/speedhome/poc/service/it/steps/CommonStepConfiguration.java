@@ -1,7 +1,8 @@
 package com.property.poc.service.it.steps;
 
+import com.property.propertyApplication;
 import com.property.poc.client.handler.ApiClient;
-import com.property.poc.service.propertyApplication;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootContextLoader;
 import org.springframework.boot.test.context.SpringBootTest;

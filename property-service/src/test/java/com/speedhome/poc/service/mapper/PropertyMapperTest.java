@@ -5,6 +5,7 @@ import com.property.poc.api.model.Property;
 import com.property.poc.api.model.PropertyApproveReq;
 import com.property.poc.api.model.PropertyReq;
 import com.property.poc.service.entity.PropertyEntity;
+import com.property.poc.service.mapper.PropertyMapper;
 import com.property.poc.service.mock.PropertyData;
 import com.property.poc.service.repository.PropertyRepository;
 import org.junit.Test;

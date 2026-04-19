@@ -1,4 +1,4 @@
-package com.property.poc.service;
+package com.property;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

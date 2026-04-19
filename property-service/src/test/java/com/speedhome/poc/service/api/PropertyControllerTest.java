@@ -4,6 +4,7 @@ import com.property.poc.api.model.Properties;
 import com.property.poc.api.model.Property;
 import com.property.poc.api.model.PropertyApproveReq;
 import com.property.poc.api.model.PropertyReq;
+import com.property.poc.service.api.PropertyController;
 import com.property.poc.service.mock.PropertyData;
 import com.property.poc.service.service.PropertyService;
 import com.property.poc.service.validator.PropertySearchValidator;

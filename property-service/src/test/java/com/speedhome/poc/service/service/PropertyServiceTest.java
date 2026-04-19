@@ -4,6 +4,8 @@ import com.property.poc.service.mapper.PropertyMapper;
 import com.property.poc.service.mock.PropertyData;
 import com.property.poc.service.repository.PropertyRepository;
 import com.property.poc.service.search.PropertySearch;
+import com.property.poc.service.service.PropertyService;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
